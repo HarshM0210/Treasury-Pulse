@@ -1,0 +1,15 @@
+# Web/API (versions already in .venv)
+Django==5.2.18
+djangorestframework==3.18.3
+drf-spectacular==0.30.0
+django-cors-headers==4.9.0
+python-dotenv==1.2.4
+psycopg[binary]==3.3.6
+
+# ML pipeline (server/ml)
+pandas>=2.2
+numpy>=1.26
+prophet>=1.1.5
+
+# AI assistant (server/copilot) — HTTP client for the optional local Ollama LLM
+requests>=2.31,<3
