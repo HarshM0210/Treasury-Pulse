@@ -7,8 +7,6 @@ balance falls below its minimum threshold, lets the team test decisions with ins
 questions in plain English through an AI assistant. Every expected inflow is discounted by the measured chance that the
 counterparty fails or pays late.
 
-![System architecture](System%20Architecture.png)
-
 ---
 
 ## 1. The problem
