@@ -40,17 +40,6 @@ is limited to the entities the signed-in user may see.
 
 ## 3. Architecture
 
-```
-Browser ── React 18 SPA (Vite :5173) ──/api proxy──▶ Django 5.2 + DRF (:8000)
-                                                       │  session auth + CSRF → role check → entity scoping
-                                                       ├─ Analytics / CRUD views ──────────────┐
-                                                       ├─ What-if view ── Script 3             │
-                                                       ├─ ml/refresh ──── Script 2 ◀─ Script 1 │
-                                                       └─ Assistant ───── copilot ─(optional)─▶ Ollama (Qwen 3)
-                                                                                               ▼
-                                                                                      PostgreSQL 16
-```
-
 | Layer | Technology | Role |
 |---|---|---|
 | Frontend | React 18, Vite 7, Tailwind 4, Recharts, React Router 7 | Pages, charts, chat widget; one API client (`src/services/api.js`) |
