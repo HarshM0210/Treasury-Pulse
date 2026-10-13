@@ -1,6 +1,6 @@
-# Treasury Pulse — Short-term Liquidity Manager
+# Treasury Pulse
 
-**BNP Paribas Innoversité 2026-27 · Use case: Treasury Pulse : Short-term Liquidity Manager**
+**BNP Paribas Innoversité 2026-27**
 
 Treasury Pulse gives a treasury team a 30-day, risk-adjusted cash forecast for every legal entity, raises alerts before a
 balance falls below its minimum threshold, lets the team test decisions with instant what-if scenarios, and answers
